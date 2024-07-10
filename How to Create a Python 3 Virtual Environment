@@ -1,0 +1,14 @@
+First, install venv for Python 3.10: 
+   apt install -y python3.10-venv
+After venv has been installed, create a virtual environment:
+   $ python3 -m venv ciscou
+Now, activate the virtual environment:
+   $ source ciscou/bin/activate
+    (ciscou) #
+For Windows directly, using the terminal, shell, or even PowerShell, the steps are slightly different.
+First, ensure that Python is installed on your Windows system. You can download it from the official Python website (https://python.org). During installation, make sure to select the option to Add Python to PATH.
+Open the command prompt (cmd) or PowerShell and navigate to the directory where you want to create your virtual environment. Then, run the following command to create a virtual environment named ciscou:
+python -m venv ciscou
+After creating the virtual environment, you will need to activate it. The command differs slightly, depending on whether you are using the command prompt or PowerShell.
+For the command prompt, use:
+ciscou\Scripts\activate
